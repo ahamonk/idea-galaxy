@@ -1,0 +1,284 @@
+{
+  "categories": [
+    {
+      "id": "cat-career",
+      "name": "Career & Craft",
+      "description": "Ambitious milestones, technical skills, craftsmanship, and developer execution.",
+      "createdAt": "2026-06-15T12:00:00.000Z",
+      "x": -140,
+      "y": -90,
+      "connections": [
+        "cat-creative"
+      ]
+    },
+    {
+      "id": "cat-creative",
+      "name": "Creative Projects",
+      "description": "Artistic endeavors, analog synthesizers, landscape photography, and design concepts.",
+      "createdAt": "2026-06-15T12:05:00.000Z",
+      "x": 120,
+      "y": -140,
+      "connections": [
+        "cat-career",
+        "cat-travel"
+      ]
+    },
+    {
+      "id": "cat-travel",
+      "name": "Wanderlust & Exploration",
+      "description": "Immersive journeys, high-altitude mountains, winter escapes, and cultural learning.",
+      "createdAt": "2026-06-15T12:10:00.000Z",
+      "x": 160,
+      "y": 110,
+      "connections": [
+        "cat-creative"
+      ]
+    },
+    {
+      "id": "cat-growth",
+      "name": "Mind & Personal Growth",
+      "description": "Endurance running, daily fitness targets, contemplative philosophy, and mental resilience.",
+      "createdAt": "2026-06-15T12:15:00.000Z",
+      "x": -160,
+      "y": 130,
+      "connections": [
+        "cat-career"
+      ]
+    }
+  ],
+  "thoughts": [
+    {
+      "id": "th-career-1",
+      "text": "Build a successful sustainable software startup that operates offline-first.",
+      "summary": "Develop software solutions emphasizing user autonomy and local-first data privacy.",
+      "tags": [
+        "startup",
+        "tech",
+        "offline-first",
+        "independence"
+      ],
+      "categoryId": "cat-career",
+      "createdAt": "2026-06-15T13:00:00.000Z",
+      "reason": "Directly relates to independent technical leadership, startup building, and code quality.",
+      "connections": [
+        "th-career-2"
+      ],
+      "x": -110,
+      "y": -40
+    },
+    {
+      "id": "th-career-2",
+      "text": "Become proficient in UI/UX typography so every app feels highly crafted.",
+      "summary": "Cultivate design-led focus on premium spacing, contrast, and refined typography.",
+      "tags": [
+        "design",
+        "typography",
+        "ui-ux",
+        "craftsmanship"
+      ],
+      "categoryId": "cat-career",
+      "createdAt": "2026-06-15T13:30:00.000Z",
+      "reason": "Deals directly with visual design mastery and fine arts in software applications.",
+      "connections": [
+        "th-career-1"
+      ],
+      "x": -40,
+      "y": -110
+    },
+    {
+      "id": "th-creative-1",
+      "text": "Publish a high-end visual astronomy photobook containing dark sky captures.",
+      "summary": "Create a curated print publication celebrating deep space imagery and dark-sky reserves.",
+      "tags": [
+        "photography",
+        "astronomy",
+        "book",
+        "editorial"
+      ],
+      "categoryId": "cat-creative",
+      "createdAt": "2026-06-16T10:00:00.000Z",
+      "reason": "Aligns with print publication, book layout, and observational night sky fine arts.",
+      "connections": [
+        "th-travel-2",
+        "th-5o0w3j8gp"
+      ],
+      "x": 70,
+      "y": -180
+    },
+    {
+      "id": "th-creative-2",
+      "text": "Design a modular analog ambient music generator using pure web synthesizers.",
+      "summary": "Build an interactive audio canvas that loops beautiful generative synthesizer chords.",
+      "tags": [
+        "music",
+        "synthesizer",
+        "audio",
+        "code-art"
+      ],
+      "categoryId": "cat-creative",
+      "createdAt": "2026-06-16T10:30:00.000Z",
+      "reason": "Integrates technical web audio programming with artistic soundscape designs.",
+      "connections": [
+        "th-career-1",
+        "th-5o0w3j8gp"
+      ],
+      "x": 150,
+      "y": -80
+    },
+    {
+      "id": "th-travel-1",
+      "text": "Spend a full month traveling through the sub-zero Hokkaido winter landscapes.",
+      "summary": "Venture deep into Japan's snowiest northern island to observe quiet, frozen wilderness.",
+      "tags": [
+        "japan",
+        "winter",
+        "travel",
+        "exploration"
+      ],
+      "categoryId": "cat-travel",
+      "createdAt": "2026-06-17T09:00:00.000Z",
+      "reason": "Centered entirely on slow travel and experiencing unique cold-climate architecture.",
+      "connections": [
+        "th-travel-2"
+      ],
+      "x": 180,
+      "y": 150
+    },
+    {
+      "id": "th-travel-2",
+      "text": "Take direct high-contrast landscape photographs under the high-altitude Andes mountains.",
+      "summary": "Organize a visual expedition to capture light play across dramatic Andean slopes.",
+      "tags": [
+        "photography",
+        "travel",
+        "mountains",
+        "andes"
+      ],
+      "categoryId": "cat-travel",
+      "createdAt": "2026-06-17T09:42:00.000Z",
+      "reason": "Bridges high-altitude mountaineering travel with creative photographic capture.",
+      "connections": [
+        "th-creative-1",
+        "th-travel-1"
+      ],
+      "x": 90,
+      "y": 60
+    },
+    {
+      "id": "th-growth-1",
+      "text": "Establish an early morning reading ritual covering philosophical minimalism.",
+      "summary": "Dedicate quiet starting hours to digesting meditations on focus, calm, and clarity.",
+      "tags": [
+        "mindfulness",
+        "philosophy",
+        "morning",
+        "habits"
+      ],
+      "categoryId": "cat-growth",
+      "createdAt": "2026-06-17T06:00:00.000Z",
+      "reason": "Cultivates daily personal routines aimed at strengthening mental clarity.",
+      "connections": [
+        "th-x6exa05gd",
+        "th-2546f52ji"
+      ],
+      "x": -180,
+      "y": 80
+    },
+    {
+      "id": "th-growth-2",
+      "text": "Run a continuous half-marathon along pristine coastline paths by August.",
+      "summary": "Train physical stamina and pacing to conquer a 21km seaside running pathway.",
+      "tags": [
+        "running",
+        "athletics",
+        "fitness",
+        "coastal"
+      ],
+      "categoryId": "cat-growth",
+      "createdAt": "2026-06-17T07:15:00.000Z",
+      "reason": "Directly relates to physical training, health milestones, and endurance habits.",
+      "connections": [
+        "th-x6exa05gd",
+        "th-2546f52ji"
+      ],
+      "x": -80,
+      "y": 180
+    },
+    {
+      "id": "th-5o0w3j8gp",
+      "text": "start a formula one related project",
+      "summary": "[Heuristic Mode] Plan centered around: start a formula one related project",
+      "tags": [
+        "start",
+        "formula",
+        "related",
+        "offline-sync"
+      ],
+      "categoryId": "cat-creative",
+      "subcategory": "F1 Project",
+      "createdAt": "2026-06-18T07:49:12.083Z",
+      "reason": "Based on content analysis, this connects semantically to your thoughts in Creative Projects.",
+      "connections": [
+        "th-x6exa05gd"
+      ],
+      "x": 95,
+      "y": -64
+    },
+    {
+      "id": "th-x6exa05gd",
+      "text": "make the formula one project a race strategy predictor ",
+      "summary": "[Heuristic Mode] Plan centered around: make the formula one project a race strategy predictor ",
+      "tags": [
+        "make",
+        "formula",
+        "project",
+        "offline-sync"
+      ],
+      "categoryId": "cat-creative",
+      "subcategory": "F1 Project",
+      "createdAt": "2026-06-18T07:50:34.241Z",
+      "reason": "Direct extension of your Formula One project idea within Creative Projects.",
+      "connections": [
+        "th-5o0w3j8gp"
+      ],
+      "x": 65,
+      "y": -105
+    },
+    {
+      "id": "th-2546f52ji",
+      "text": "start going to the gym",
+      "summary": "[Heuristic Mode] Plan centered around: start going to the gym",
+      "tags": [
+        "start",
+        "going",
+        "offline-sync"
+      ],
+      "categoryId": "cat-growth",
+      "subcategory": "Daily Habits",
+      "createdAt": "2026-06-18T09:21:06.187Z",
+      "reason": "Based on content analysis, this connects semantically to your thoughts in Mind & Personal Growth.",
+      "connections": [
+        "th-growth-1",
+        "th-growth-2"
+      ],
+      "x": 31,
+      "y": -95
+    }
+  ],
+  "insights": [
+    {
+      "id": "ins-1",
+      "title": "The Camera & The Passport",
+      "content": "You frequently merge creative fine-art photo concepts directly with travel wanderlust, treating geographical exploration as the fuel of your artistic lens.",
+      "type": "connection",
+      "createdAt": "2026-06-18T07:37:35.159Z"
+    },
+    {
+      "id": "ins-2",
+      "title": "Focus on Masterful Craft",
+      "content": "Your professional interest clusters show a deep respect for self-sufficient digital platforms, minimalist typography systems, and local autonomy.",
+      "type": "focus",
+      "createdAt": "2026-06-18T07:37:35.159Z"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Idea Galaxy",
+  "description": "An AI-powered spatial thought visualization platform that maps your mind as a beautiful connected constellation of categories and individual nodes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
